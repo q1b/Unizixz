@@ -6,6 +6,7 @@ body {
     background-color: #17141d;
     color: white;
     font-family: 'DM Mono', monospace;
+    
 }
 
 a {
@@ -13,9 +14,10 @@ a {
 }
 
 .card-list {
-    display: flex;
     padding: 3rem;
-    overflow-x: scroll;
+    top: 50%; 
+    left:50%;
+    transform:translate(-50%,-50%);
 }
 
 .card-list::-webkit-scrollbar {
@@ -34,9 +36,9 @@ a {
 
 
 .card {
-    height: 350px;
-    width: 400px;
-    min-width: 250px;
+    height: 7fr;
+    width: 4fr;
+    min-width: 3fr;
     padding: 1.5rem;
     border-radius: 16px;
     background: #17141d;
