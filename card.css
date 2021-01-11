@@ -14,7 +14,7 @@ a {
 }
 
 .card-list {
-    padding: 3rem;
+    position:absolute;
     top: 50%; 
     left:50%;
     transform:translate(-50%,-50%);
@@ -47,7 +47,6 @@ a {
     flex-direction: column;
     transition: .2s;
     margin: 0;
-    scroll-snap-align: start;
     clear: both;
     position: relative;
 }
