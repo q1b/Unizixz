@@ -36,9 +36,9 @@ a {
 
 
 .card {
-    height: 50%;
-    width: 90%;
-    min-width: 3fr;
+    height: 70%;
+    width: 100%;
+    min-width: 80%;
     padding: 1.5rem;
     border-radius: 16px;
     background: #17141d;
