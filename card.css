@@ -36,8 +36,8 @@ a {
 
 
 .card {
-    height: 14fr;
-    width: 6fr;
+    height: 50%;
+    width: 90%;
     min-width: 3fr;
     padding: 1.5rem;
     border-radius: 16px;
